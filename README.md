@@ -10,7 +10,7 @@ The data is provided as jsonlines objects containing relevant fields for concept
 
 ## Training
 
-To train, call the concept2seq.py script with --mode train, along with the required parameters.
+To train, call the concept2seq.py script with --mode train, along with the required parameters. The "extras" parameter includes the control: this can be "srl", "wsd", "or "cefr".
 
 ```
 # Set a root directory
@@ -26,7 +26,6 @@ data_json=${r}/data/concept2seq_train.jsonl
     --batch_size 32 \
     --model_path facebook/bart-base \
 #    --extras srl \
-#    --n 100
 ```
 
 ## Prediction
