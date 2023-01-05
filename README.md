@@ -3,7 +3,7 @@
 This is the repository for the paper <a href="https://arxiv.org/abs/2211.15731">Controlled Language Generation for Language Learning Items</a> at the Industry Track, EMNLP 2022. The code is based heavily on HuggingFace's sequence-to-sequence Trainer examples.
 
 ## Requirements
-Scripts were tested with python 3.9 and the transformers package. Nothing else should be required.
+Scripts were tested with python 3.9 and transformers version 4.6.1. Nothing else should be required.
 
 ## Data
 The data is provided as jsonlines objects containing relevant fields for concept-to-sequence generation with control. The files require <a href="https://git-lfs.com/">Git LFS</a>.
